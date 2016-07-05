@@ -1,0 +1,72 @@
+.btn {
+  border: none;
+  border-radius: 3px;
+  color: inherit;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1.5rem;
+  text-decoration: none;
+  transition: background-color .2s ease;
+
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.btn-d--light {
+  background-color: #e0e0e0;
+  color: #333;
+
+  &:hover {
+    background: darken(#e0e0e0,5%);
+  }
+}
+
+.btn-d--dark {
+  background-color: #656565;
+  color: #fff;
+
+  &:hover {
+    background: darken(#656565,5%);
+  }
+}
+
+.btn--create {
+  background: $green;
+  color: #fff;
+
+  &:hover {
+    background: darken($green,5%);
+  }
+}
+
+.btn--destroy {
+  background: $red;
+  color: #fff;
+
+  &:hover {
+    background: darken($red,5%);
+  }
+}
+
+.btn--neutral {
+  background: $blue;
+  color: #fff;
+
+  &:hover {
+    background: darken($blue,5%);
+  }
+}
+
+.btn--s {
+  font-size: 1.2rem;
+}
+
+.btn--l {
+  font-size: 1.6rem;
+}
+
+.btn--xl {
+  font-size: 2rem;
+}

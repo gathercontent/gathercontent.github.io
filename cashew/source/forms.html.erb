@@ -1,0 +1,150 @@
+---
+title: Cashew
+---
+<div class="grid grid--fh">
+	<!-- Sidebar start -->
+
+	<aside class="sidebar grid__item one-quarter">
+		<div class="sidebar__inner">
+			<h1 class="h3 sidebar__header">Cashew</h1>
+			<nav class="sidebar__nav">
+				<li class="sidebar__item">
+					<%= link_to "Introduction", "/index.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<h1 class="sidebar__subheader h6">Application</h1>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Colours", "/colours.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Typography", "/typography.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Buttons", "/buttons.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Forms", "/forms.html", :class => "sidebar__link sidebar__link--active" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Tables", "/tables", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Notifications", "/notifications", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Alerts", "/alerts", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Miscellaneous", "/miscellaneous", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<h1 class="sidebar__subheader h6">Illustration</h1>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Palette", "/palette.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Brushes", "/brushes.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Example Illustrations", "/example-illustrations", :class => "sidebar__link" %>
+				</li>
+			</nav>
+		</div>
+	</aside><!--
+	--><div class="content grid__item three-quarters">
+		<div class="content__inner">
+			<h1 class="h3">Forms</h1>
+			<hr>
+			<p>Did you know that 100% of the information submitted to our platfor is done via forms? Of course you did. Inputs always take up the maximum width of the parent, so you should use them within grids wherever possible.</p>
+			<h2 class="h4">Inputs</h2>
+			<div class="grid">
+				<div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">First name</label>
+						<input type="text" name="first-name" class="gc-input" placeholder="First name">
+					</div>
+				</div><!--
+				--><div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">Last name</label>
+						<input type="text" name="" class="gc-input gc-input--search" placeholder="Last name">
+						<small class="gc-input__helper">Please don't use a generic last name</small>
+					</div>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">Disabled field</label>
+						<input type="text" name="first-name" class="gc-input gc-input--disabled" disabled placeholder="First name">
+					</div>
+				</div><!--
+				--><div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">Country</label>
+						<select name="country" id="" class="gc-input gc-input--dropdown">
+							<option value="UK">UK</option>
+							<option value="U.S.A">U.S.A</option>
+							<option value="Germany">Germany</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<h2 class="h4">Textarea</h2>
+			<div class="grid">
+				<div class="grid__item two-quarters">
+					<textarea name="" id="" cols="30" rows="10" class="gc-input gc-input--textarea"></textarea>
+				</div>
+			</div>
+
+			<h2 class="h4">Example</h2>
+			<div class="grid">
+				<div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">First name</label>
+						<input type="text" name="first-name" class="gc-input" placeholder="First name">
+					</div>
+				</div><!--
+				--><div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">Last name</label>
+						<input type="text" name="" class="gc-input gc-input--search" placeholder="Last name">
+					</div>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">E-mail</label>
+						<input type="email" name="" class="gc-input gc-input--search" placeholder="E-mail">
+					</div>
+				</div><!--
+				--><div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">Password</label>
+						<input type="password" name="" class="gc-input gc-input--search" placeholder="Password">
+					</div>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="grid__item two-quarters">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">Company name</label>
+						<input type="email" name="" class="gc-input gc-input--search" placeholder="Company name">
+					</div>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="grid__item two-quarters">
+					<div class="gc-input__wrapper">
+						<button class="btn btn--create">Start my 30-day trial</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Content end -->
+</div>

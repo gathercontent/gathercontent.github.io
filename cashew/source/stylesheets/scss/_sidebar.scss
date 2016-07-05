@@ -1,0 +1,42 @@
+.sidebar {
+  background-color: $blue;
+  color: #fff;
+  height: 100%;
+  max-width: 350px;
+  overflow: scroll;
+}
+
+.sidebar__inner {
+  padding: 40px;
+}
+
+.sidebar__header {
+  color: #fff;
+  font-weight: 300;
+}
+
+.sidebar__subheader {
+  color: lighten($blue, 20%);
+  font-weight: 500;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.sidebar__item {
+  & + & {
+    margin-top: 5px;
+  }
+}
+
+.sidebar__link {
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.sidebar__link--active {
+  background: lighten($blue,5%);
+  font-weight: 500;
+}

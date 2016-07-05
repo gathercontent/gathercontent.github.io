@@ -1,0 +1,148 @@
+---
+title: Cashew
+---
+<div class="grid grid--fh">
+	<!-- Sidebar start -->
+
+	<aside class="sidebar grid__item one-quarter">
+		<div class="sidebar__inner">
+			<h1 class="h3 sidebar__header">Cashew</h1>
+			<nav class="sidebar__nav">
+				<li class="sidebar__item">
+					<%= link_to "Introduction", "/index.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<h1 class="sidebar__subheader h6">Application</h1>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Colours", "/colours.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Typography", "/typography.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Buttons", "/buttons.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Forms", "/forms.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Tables", "/tables", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Notifications", "/notifications", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Alerts", "/alerts", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Miscellaneous", "/miscellaneous", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<h1 class="sidebar__subheader h6">Illustration</h1>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Palette", "/palette.html", :class => "sidebar__link" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Brushes", "/brushes.html", :class => "sidebar__link sidebar__link--active" %>
+				</li>
+				<li class="sidebar__item">
+					<%= link_to "Example Illustrations", "/example-illustrations", :class => "sidebar__link" %>
+				</li>
+			</nav>
+		</div>
+	</aside><!--
+	--><div class="content grid__item three-quarters">
+		<div class="content__inner">
+			<h1 class="h3">Brushes</h1>
+			<hr>
+			<h2 class="h4">GCBrush A</h2>
+			<div class="grid brushes">
+				<div class="grid__item one-third brushes__brush">
+					<img src="images/a-closed.png" alt="" width="240">
+					<p><em>GCBrush A (Closed)</em></p>
+				</div><!--
+				--><div class="grid__item one-third brushes__brush">
+					<img src="images/a-open.png" alt="" width="240">
+					<p><em>GCBrush A (Open)</em></p>
+				</div><!--
+				--><div class="grid__item one-third brushes__brush">
+					<img src="images/a-open-b.png" alt="" width="240">
+					<p><em>GCBrush A (Open B)</em></p>
+				</div>
+			</div>
+			<h2 class="h4">GCBrush B</h2>
+			<div class="grid brushes">
+				<div class="grid__item one-third brushes__brush">
+					<img src="images/b-closed.png" alt="" width="240">
+					<p><em>GCBrush B (Closed)</em></p>
+				</div><!--
+				--><div class="grid__item one-third brushes__brush">
+					<img src="images/b-open.png" alt="" width="240">
+					<p><em>GCBrush B (Open)</em></p>
+				</div><!--
+				--><div class="grid__item one-third brushes__brush">
+					<img src="images/b-open-b.png" alt="" width="240">
+					<p><em>GCBrush B (Open B)</em></p>
+				</div>
+			</div>
+			<h2 class="h4">Brush types</h2>
+			<h3 class="h5">Closed brushes</h3>
+			<div class="grid grid--middle">
+				<div class="grid__item one-sixth">
+					<img src="images/closed-circle.png" alt="" width="110" class="brush__img">
+				</div><!--
+				--><div class="grid__item one-third">
+				<p class="brush__info">Closed brushes <em>should</em> be used for closed-path shapes, such as circles or squares.</p>
+				</div><!--
+				--><div class="grid__item one-sixth">
+					<img src="images/closed-line.png" alt="" width="115" class="brush__img">
+				</div><!--
+				--><div class="grid__item one-third">
+				<p class="brush__info">Closed brushes <em>should never</em> be used for lines, as they don't appear to be naturally drawn.</p>
+				</div>
+			</div>
+			<h3 class="h5">Open brushes</h3>
+			<div class="grid grid--middle">
+				<div class="grid__item one-sixth">
+					<img src="images/open-line.png" alt="" width="115" class="brush__img">
+				</div><!--
+				--><div class="grid__item one-third">
+				<p class="brush__info">Open brushes <em>should be</em> be used for lines, as they appear to be naturally drawn.</p>
+				</div><!--
+				--><div class="grid__item one-sixth">
+					<img src="images/open-circle.png" alt="" width="110" class="brush__img">
+				</div><!--
+				--><div class="grid__item one-third">
+				<p class="brush__info">Open brushes <em>should never</em> be used for closed-path shapes, such as circles or squares.</p>
+				</div>
+			</div>
+			<h3 class="h5">Open B brushes</h3>
+			<div class="grid grid--middle">
+				<div class="grid__item one-sixth">
+					<img src="images/open-b-circle.png" alt="" width="115" class="brush__img">
+				</div><!--
+				--><div class="grid__item one-third">
+				<p class="brush__info">Open B brushes should never be used for closed-path shapes, as the lnes don't join naturally.</p>
+				</div><!--
+				--><div class="grid__item one-sixth">
+					<img src="images/open-b-line.png" alt="" width="115" class="brush__img">
+				</div><!--
+				--><div class="grid__item one-third">
+				<p class="brush__info">Open B brushes <em>should</em> be used for lines that join onto a closed path shape, such as a circle or square.</p>
+				</div>
+			</div>
+			<h2 class="h4">Download</h2>
+			<p>GC Brushes are available for download, and contain the 6 brushes shown above. </p>
+			<p><a target="_blank" href="https://www.dropbox.com/s/ymellyc7kcgivym/GC%20Brushes.ai?dl=1">Download GC Brushes from Dropbox →</a></p>
+			<h2 class="h4">Notes</h2>
+			<ul>
+				<li>At smaller sizes (think 32px icons), some of these brushes may distort. In those cases, and for smaller details, don’t be afraid to use the basic brush to neaten up those lines.</li>
+				<li>For larger illustrations that need condensing down, remove detail from the smaller elements to retain clarity at smaller sizes.</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Content end -->
+</div>

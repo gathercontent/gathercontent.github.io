@@ -1,0 +1,24 @@
+.colour {
+	margin-top: 20px;
+}
+
+.colour__inner {
+	background: pink;
+	height: 75px;
+	width: 75px;
+	border-radius: 4px;
+}
+
+.colour__info {
+	margin: 10px 0;
+	> p {
+		font-size: 1.2rem;
+		margin: 0;
+		font-weight: 500;
+	}
+
+	strong {
+		color: darken(#E6EAED,20%);
+		margin-right: 10px;
+	}
+}
