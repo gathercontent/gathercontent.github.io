@@ -1172,7 +1172,7 @@ code {
 
 /* line 14, /Users/benjamin-gc/Cashew/source/stylesheets/all.scss */
 html {
-  font-family: "Whitney SSm";
+  font-family: "Whitney SSm A", "Whitney SSm B", "Whitney SSm", sans-serif;
   font-size: 62.5%;
   font-weight: 400;
   font-weight: 400;
